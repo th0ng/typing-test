@@ -1,6 +1,11 @@
-function App() {
+import { Header } from './components';
+
+const App = () => {
   return (
-    <h1>Typing test</h1>
+    <>
+      <Header />
+      <h1>Typing test</h1>
+    </>
   );
 }
 
